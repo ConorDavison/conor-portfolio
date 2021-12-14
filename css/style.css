@@ -29,6 +29,7 @@ html {
     width: 6rem;
     height: 6rem;
     border: 0.1rem solid #c7a622;
+    animation: mouseCircleAnim 10s infinite linear;
 }
 
 .mouse-dot {
@@ -36,6 +37,34 @@ html {
     height: 0.5rem;
     background-color: #9b0e0e;
 }
+
+@keyframes mouseCircleAnim {
+    0% {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    25% {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    35% {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    70% {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    100% {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
 /* end of mouse circle */
 
 /* page BG */
