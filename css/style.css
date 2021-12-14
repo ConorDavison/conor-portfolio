@@ -17,6 +17,27 @@ html {
 }
 /* end of common styles */
 
+/* mouse circle */
+.mouse-circle, .mouse-dot {
+    border-radius: 50%;
+    position: fixed;
+    z-index: 300;
+    transform: translate(-50%, -50%);
+}
+
+.mouse-circle {
+    width: 6rem;
+    height: 6rem;
+    border: 0.1rem solid #c7a622;
+}
+
+.mouse-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #9b0e0e;
+}
+/* end of mouse circle */
+
 /* page BG */
 .page-bg {
     position: fixed;
