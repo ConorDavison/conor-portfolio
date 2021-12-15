@@ -4,8 +4,8 @@ const mouseDot = document.querySelector(".mouse-dot");
 
 
 const mouseCircleFn = (x,y)=>{
-    mouseCircle.style.cssText = `top: ${y}px; left: ${x}px`;
-    mouseDot.style.cssText = `top: ${y}px; left: ${x}px`;
+    mouseCircle.style.cssText = `top: ${y}px; left: ${x}px; opacity: 1`;
+    mouseDot.style.cssText = `top: ${y}px; left: ${x}px; opacity: 1`;
 };
 
 document.body.addEventListener("mousemove", (e) => {
