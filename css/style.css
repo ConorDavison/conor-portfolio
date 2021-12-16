@@ -154,6 +154,13 @@ html, body{
 
   /* end of banner area */
 
+  /* about area */
+  .site-main .about-area {
+    padding: 8rem 5rem;
+  }
+
+  /* end about area */
+
  
 
   
