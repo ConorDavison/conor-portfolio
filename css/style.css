@@ -2,20 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Playfair+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Common Styles */
-* {
-    margin: 0;
-    padding: 0;
+html, body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-    outline: none;
     font-family: "Jura", sans-serif;
   }
   
-  html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-  }
+ 
   /* End of Common Styles */
   
   /* Mouse Circle */
@@ -32,7 +28,7 @@
   .mouse-circle {
     width: 6rem;
     height: 6rem;
-    border: 0.1rem solid #c7a622;
+    border: 0.1rem solid black;
     animation: mouseCircleAnim 10s infinite linear;
   }
   
@@ -87,10 +83,6 @@
     padding: 0 2rem 0 5rem;
   }
 
-  .header-area .main-menu .navbar {
-    padding: 1rem 20rem;
-  }
-
   .header-area .main-menu .nav-item .nav-link {
     text-transform: uppercase;
     font-weight: 500;
@@ -108,6 +100,57 @@
   /* end of nav */
   
   /* banner area */
+  .site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+  }
+
+  .site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    display: inline-block;
+    background: crimson;
+    margin-left: 5%;
+    transform: translateY(10px);
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+  }
+
+  .site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+  }
+
+  .site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+  }
+
+  .title-text {
+    font: normal bold 50px/72px;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .button {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    border: 3px solid crimson;
+    text-decoration: none;
+  }
+
+  .button.primary-button:hover{
+    background: crimson;
+  }
+
+  .button.secondary-button:hover{
+    background: crimson;
+  }
 
   /* end of banner area */
 
