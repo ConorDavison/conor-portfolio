@@ -142,6 +142,7 @@ html, body{
     position: relative;
     border: 3px solid crimson;
     text-decoration: none;
+    margin: 10px;
   }
 
   .button.primary-button:hover{
@@ -157,6 +158,20 @@ html, body{
   /* about area */
   .site-main .about-area {
     padding: 8rem 5rem;
+  }
+
+  .site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px;
+    letter-spacing: 15px;
+  }
+
+  .site-main .about-area .about-title .paragraph > p {
+    padding: .4rem 0;
+  }
+
+  p.para {
+    font: normal 500 16px/25px;
   }
 
   /* end about area */
