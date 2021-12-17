@@ -176,10 +176,23 @@ html, body{
 
   /* end about area */
 
-  .single-brand img {
-    height: 75px;
-    width: 75px;
-  }
+/* services area */
+.site-main .services-area {
+  padding: 7rem 2rem;
+}
+
+.site-main .services-area .service-title {
+  padding: 0 14rem;
+}
+
+.site-main .services-area .service-title h1 {
+  font-size: 35px;
+}
+
+.site-main .services-area .services {
+  background-color: rgba(248, 258, 252, 0.973);
+}
+/* end services area */
 
  
 
