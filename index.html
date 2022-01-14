@@ -211,8 +211,8 @@
         </div>
         <div class="button-group">
           <button type="button" class="active">All</button>
-          <button type="button">Latest</button>
-          <button type="button">Upcoming</button>
+          <button type="button" data-filter=".latest">Latest</button>
+          <button type="button" data-filter=".upcoming">Upcoming</button>
         </div>
 
         <div class="row grid">
@@ -228,26 +228,50 @@
             </div>
 
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
             <div class="my-project">
               <div class="img">
                 <img src="./img/nationaltrust.png" alt="mynationaltrust">
               </div>
               <div class="title py-4">
                 <h4 class="text-uppercase">My National Trust</h4>
-                <span class="text-secondary">Popular, Portfolio</span>
+                <span class="text-secondary">Latest, Portfolio</span>
               </div>
             </div>
 
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
             <div class="my-project">
               <div class="img">
                 <img src="./img/taskmanager.png" alt="Task Manager App">
               </div>
               <div class="title py-4">
                 <h4 class="text-uppercase">Task Manager</h4>
-                <span class="text-secondary">Popular, Portfolio</span>
+                <span class="text-secondary">Latest, Portfolio</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="my-project">
+              <div class="img">
+                <img src="./img/scamaware.png" alt="scam aware">
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Scam Awareness</h4>
+                <span class="text-secondary">Upcoming, Portfolio</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="my-project">
+              <div class="img">
+                <img src="./img/hike-india.png" alt="hike india">
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Hike India</h4>
+                <span class="text-secondary">Upcoming, Portfolio</span>
               </div>
             </div>
 
@@ -266,8 +290,10 @@
     
 
     
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- isotope js library -->
+<script src="vendor/isotope/isotope.min.js"></script>
 </body>
 </html>
