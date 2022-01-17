@@ -226,6 +226,15 @@ html, body{
 .title-h1{
   font: normal bold 39px/ 40px;
 }
+
+.btn-1 {
+  background: transparent;
+}
+
+.btn-1:hover {
+  background: crimson;
+  color: white;
+}
 /* end of project area */
 
  
