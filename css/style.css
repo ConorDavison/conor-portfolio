@@ -218,6 +218,10 @@ html, body{
 .site-main .project-area .button-group button + button {
   padding-left: 3rem;
 }
+
+.site-main .project-area .grid .my-project .img img:hover{
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
 /* end of project area */
 
  
