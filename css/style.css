@@ -173,6 +173,11 @@ html, body{
   p.para {
     font: normal 500 16px/25px;
   }
+  
+  #cv {
+    text-decoration: none;
+    color: black;
+  }
 
   /* end about area */
 
@@ -236,6 +241,8 @@ html, body{
   color: white;
 }
 /* end of project area */
+
+
 
  
 
